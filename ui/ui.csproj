@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EC1D851D-0FE6-4239-8966-6B65B13EF43C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ui</RootNamespace>
+    <AssemblyName>ui</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAmount\frmAmount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAmount\frmAmount.Designer.cs">
+      <DependentUpon>frmAmount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAmount\frmAmountUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAmount\frmAmountUpdate.Designer.cs">
+      <DependentUpon>frmAmountUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorAddDonation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorAddDonation.Designer.cs">
+      <DependentUpon>frmBDonorAddDonation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonors.Designer.cs">
+      <DependentUpon>frmBDonors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorsAdd.Designer.cs">
+      <DependentUpon>frmBDonorsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorsRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorsRemove.Designer.cs">
+      <DependentUpon>frmBDonorsRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorsUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBdonors\frmBDonorsUpdate.Designer.cs">
+      <DependentUpon>frmBDonorsUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonors\frmDonors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonors\frmDonors.Designer.cs">
+      <DependentUpon>frmDonors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonors\frmDonorsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonors\frmDonorsAdd.Designer.cs">
+      <DependentUpon>frmDonorsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonors\frmDonorsRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonors\frmDonorsRemove.Designer.cs">
+      <DependentUpon>frmDonorsRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDonors\frmDonorsUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDonors\frmDonorsUpdate.Designer.cs">
+      <DependentUpon>frmDonorsUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgans.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgans.Designer.cs">
+      <DependentUpon>frmOrgans.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgansAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgansAdd.Designer.cs">
+      <DependentUpon>frmOrgansAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgansRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgansRemove.Designer.cs">
+      <DependentUpon>frmOrgansRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgansUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOrgans\frmOrgansUpdate.Designer.cs">
+      <DependentUpon>frmOrgansUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaceAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaceAdd.Designer.cs">
+      <DependentUpon>frmPlaceAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaceRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaceRemove.Designer.cs">
+      <DependentUpon>frmPlaceRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaces.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaces.Designer.cs">
+      <DependentUpon>frmPlaces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaceUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPlaces\frmPlaceUpdate.Designer.cs">
+      <DependentUpon>frmPlaceUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepients.Designer.cs">
+      <DependentUpon>frmRecepients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepientsAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepientsAdd.Designer.cs">
+      <DependentUpon>frmRecepientsAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepientsRemove.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepientsRemove.Designer.cs">
+      <DependentUpon>frmRecepientsRemove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepientsUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRecepients\frmRecepientsUpdate.Designer.cs">
+      <DependentUpon>frmRecepientsUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAmount\frmAmount.resx">
+      <DependentUpon>frmAmount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAmount\frmAmountUpdate.resx">
+      <DependentUpon>frmAmountUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBdonors\frmBDonorAddDonation.resx">
+      <DependentUpon>frmBDonorAddDonation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBdonors\frmBDonors.resx">
+      <DependentUpon>frmBDonors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBdonors\frmBDonorsAdd.resx">
+      <DependentUpon>frmBDonorsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBdonors\frmBDonorsRemove.resx">
+      <DependentUpon>frmBDonorsRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBdonors\frmBDonorsUpdate.resx">
+      <DependentUpon>frmBDonorsUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonors\frmDonors.resx">
+      <DependentUpon>frmDonors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonors\frmDonorsAdd.resx">
+      <DependentUpon>frmDonorsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonors\frmDonorsRemove.resx">
+      <DependentUpon>frmDonorsRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDonors\frmDonorsUpdate.resx">
+      <DependentUpon>frmDonorsUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrgans\frmOrgans.resx">
+      <DependentUpon>frmOrgans.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrgans\frmOrgansAdd.resx">
+      <DependentUpon>frmOrgansAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrgans\frmOrgansRemove.resx">
+      <DependentUpon>frmOrgansRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOrgans\frmOrgansUpdate.resx">
+      <DependentUpon>frmOrgansUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlaces\frmPlaceAdd.resx">
+      <DependentUpon>frmPlaceAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlaces\frmPlaceRemove.resx">
+      <DependentUpon>frmPlaceRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlaces\frmPlaces.resx">
+      <DependentUpon>frmPlaces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPlaces\frmPlaceUpdate.resx">
+      <DependentUpon>frmPlaceUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecepients\frmRecepients.resx">
+      <DependentUpon>frmRecepients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecepients\frmRecepientsAdd.resx">
+      <DependentUpon>frmRecepientsAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecepients\frmRecepientsRemove.resx">
+      <DependentUpon>frmRecepientsRemove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRecepients\frmRecepientsUpdate.resx">
+      <DependentUpon>frmRecepientsUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\logic\logic.csproj">
+      <Project>{5c2ae6d7-9151-4267-a7ed-fa432667977a}</Project>
+      <Name>logic</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
