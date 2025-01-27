@@ -1,0 +1,88 @@
+23.01.2025 13:13:43	This log contains information about the import schema operation into project 'Database' on computer 'DESKTOP-PVKRCT0' by user 'Hlib'.
+23.01.2025 13:13:43	Import of database schema has started.
+23.01.2025 13:13:48	Gathering database credentials
+23.01.2025 13:13:48	Gathering database options
+23.01.2025 13:13:48	Gathering generic database scoped configuration option
+23.01.2025 13:13:48	Gathering users
+23.01.2025 13:13:48	Gathering roles
+23.01.2025 13:13:48	Gathering application roles
+23.01.2025 13:13:48	Gathering role memberships
+23.01.2025 13:13:48	Gathering filegroups
+23.01.2025 13:13:48	Gathering full-text catalogs
+23.01.2025 13:13:48	Gathering assemblies
+23.01.2025 13:13:48	Gathering certificates
+23.01.2025 13:13:48	Gathering asymmetric keys
+23.01.2025 13:13:48	Gathering symmetric keys
+23.01.2025 13:13:48	Gathering encrypted symmetric keys
+23.01.2025 13:13:48	Gathering schemas
+23.01.2025 13:13:48	Gathering XML schema collections
+23.01.2025 13:13:48	Gathering user-defined data types
+23.01.2025 13:13:48	Gathering user-defined types
+23.01.2025 13:13:48	Gathering table types
+23.01.2025 13:13:48	Gathering unique keys for table types
+23.01.2025 13:13:48	Gathering primary keys for table types
+23.01.2025 13:13:48	Gathering indexes for table types
+23.01.2025 13:13:48	Gathering check constraints for table types
+23.01.2025 13:13:48	Gathering default constraints for table types
+23.01.2025 13:13:48	Gathering partition functions
+23.01.2025 13:13:48	Gathering partition schemes
+23.01.2025 13:13:48	Gathering functions
+23.01.2025 13:13:48	Gathering encrypted functions
+23.01.2025 13:13:48	Gathering aggregates
+23.01.2025 13:13:48	Gathering procedures
+23.01.2025 13:13:48	Gathering encrypted procedures
+23.01.2025 13:13:48	Gathering tables
+23.01.2025 13:13:49	Gathering primary keys
+23.01.2025 13:13:49	Gathering unique constraints
+23.01.2025 13:13:49	Gathering foreign keys
+23.01.2025 13:13:49	Gathering default constraints
+23.01.2025 13:13:49	Gathering check constraints
+23.01.2025 13:13:49	Gathering views
+23.01.2025 13:13:49	Gathering encrypted views
+23.01.2025 13:13:49	Gathering indexes
+23.01.2025 13:13:49	Gathering statistics
+23.01.2025 13:13:49	Gathering full-text index stoplists
+23.01.2025 13:13:49	Gathering search property lists
+23.01.2025 13:13:49	Gathering search properties
+23.01.2025 13:13:49	Gathering full-text indexes
+23.01.2025 13:13:49	Gathering column store indexes
+23.01.2025 13:13:49	Gathering spatial indexes
+23.01.2025 13:13:49	Gathering XML indexes
+23.01.2025 13:13:49	Gathering Selective XML indexes
+23.01.2025 13:13:49	Gathering encrypted triggers
+23.01.2025 13:13:49	Gathering triggers
+23.01.2025 13:13:49	Gathering encrypted and clr ddl triggers
+23.01.2025 13:13:49	Gathering ddl triggers
+23.01.2025 13:13:49	Creating edge constraints
+23.01.2025 13:13:49	Gathering synonyms
+23.01.2025 13:13:49	Gathering defaults
+23.01.2025 13:13:49	Gathering data constraint uddt bindings
+23.01.2025 13:13:49	Gathering rules
+23.01.2025 13:13:49	Gathering data constraint uddt bindings
+23.01.2025 13:13:49	Gathering message types
+23.01.2025 13:13:49	Gathering queues
+23.01.2025 13:13:49	Gathering contracts
+23.01.2025 13:13:49	Gathering services
+23.01.2025 13:13:49	Gathering event notifications
+23.01.2025 13:13:49	Gathering remote service bindings
+23.01.2025 13:13:49	Gathering broker priorities
+23.01.2025 13:13:49	Gathering signatures
+23.01.2025 13:13:49	Gathering compression options
+23.01.2025 13:13:49	Gathering sequence types
+23.01.2025 13:13:49	Gathering security policies
+23.01.2025 13:13:49	Gather column encryption keys
+23.01.2025 13:13:49	Gathering column master keys
+23.01.2025 13:13:49	Gathering external data sources
+23.01.2025 13:13:49	Gathering external file formats
+23.01.2025 13:13:49	Gathering external tables
+23.01.2025 13:13:49	Gathering XML index compression options
+23.01.2025 13:13:49	Gathering extended properties
+23.01.2025 13:13:49	Gathering assemblies
+23.01.2025 13:13:49	Gathering credentials
+23.01.2025 13:13:49	Gathering logins
+23.01.2025 13:13:49	Gathering server audits
+23.01.2025 13:13:50	Scanning project for duplicate elements
+23.01.2025 13:13:50	Finished duplicate element processing
+23.01.2025 13:13:51	Finished importing database.
+23.01.2025 13:13:51	A summary of the import was saved to the following location: D:\Projects\C#\project\Database\Import Schema Logs\Database_20250123121343.log
+23.01.2025 13:13:51	Click Finish to continue...
